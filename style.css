@@ -1,0 +1,58 @@
+#wrapper{
+
+	border: groove;
+	padding: 50px 100px;
+	margin: 50px auto;
+	background-color: white;
+	width: 680px;
+	height: 1000px;
+
+	
+
+}
+
+
+
+
+.clearfix::after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.blog-title ,p{
+	text-align:center;
+
+}
+
+.container {
+	margin:0px;
+    padding: 40px 0px;
+	float:left;
+	width: 25%;
+	height: 200px;
+
+
+
+}
+
+.article-info {
+
+    font-size: 10px;
+	height:200px;
+	border-bottom: 1px groove;
+}
+
+.article-image {
+	border-bottom:1px groove;
+}
+
+.article-date {
+	font-size: 10px;
+
+}
+
+
+
